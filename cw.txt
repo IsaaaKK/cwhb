@@ -1,5 +1,5 @@
 -- DO NOT SHARE THIS. THE EXECUTION WILL BE LOGGED AND YOUR KEY WILL GET BLACKLISTED!!!
-_G.key = "194794291934003200.BHET-HPCI-QULI-OPQO" -- Put your key inside the quotes. "my-key-here"
+_G.key = "key not needed" -- Put your key inside the quotes. "my-key-here"
 
 -- KILLAURA METHOD, METHOD 2 MIGHT BE LESS LAGGY, BUT ALSO NOT AS EFFECTIVE!
 _G.usemethod2 = false
@@ -24,8 +24,6 @@ _G.tpOverHead = false -- THIS ONLY WORKS ON KILLAURA METHOD 2!!!
 
 -- If the script is lagging you, try putting this to 3 or higher. Lower value = more consistant killaura hits but more lag.
 _G.loopspeed = 2
-
-
 
 function addLine(myHrp, theirHrp)
 	if not theirHrp.Parent.Torso:FindFirstChild("Beam") then
